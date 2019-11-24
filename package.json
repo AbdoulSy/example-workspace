@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "pull": "meta git pull",
+    "add": "meta git add .",
     "sv": "standard-version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +23,12 @@
   "devDependencies": {
     "meta": "^2.2.8",
     "standard-version": "^7.0.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "devcert": "^1.1.0",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.0",
+    "prettier": "^1.19.1"
   }
 }
