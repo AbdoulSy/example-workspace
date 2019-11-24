@@ -4,6 +4,8 @@
   "description": "example dockerized workspace",
   "main": "index.js",
   "scripts": {
+    "pull": "meta git pull",
+    "sv": "standard-version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
