@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/AbdoulSy/example-workspace#readme",
   "devDependencies": {
+    "@testing-library/react": "^9.3.2",
+    "jest": "^24.9.0",
     "meta": "^2.2.8",
     "prettier": "1.19.1",
     "standard-version": "^7.0.1"
