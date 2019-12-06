@@ -8,6 +8,9 @@
     "commit": "meta git commit -m $1",
     "push": "meta git push origin $1",
     "add": "meta git add .",
+    "update": "meta git update",
+    "fetch": "meta git fetch origin master",
+    "meta": "meta $@",
     "sv": "standard-version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

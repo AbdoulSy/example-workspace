@@ -1,6 +1,8 @@
 {
   "projects": {
     "projects/frontend-examples": "git@github.com:AbdoulSy/frontend-example.git",
-    "projects/backend-examples": "git@github.com:AbdoulSy/backend-examples.git"
+    "projects/backend-examples": "git@github.com:AbdoulSy/backend-examples.git",
+    "infrastructure/example": "git@github.com:AbdoulSy/infrastructure-example.git",
+    "projects/db-examples": "git@github.com:AbdoulSy/db-examples.git"
   }
 }

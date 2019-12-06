@@ -61,3 +61,5 @@ typings/
 .next
 /projects/frontend-examples/
 /projects/backend-examples/
+/infrastructure/example/
+/projects/db-examples/
