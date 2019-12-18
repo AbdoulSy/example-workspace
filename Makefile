@@ -14,7 +14,7 @@ init:
 commit:
 	npm run add
 	npm run commit $(message)
-	npm run push
+	npm run push $(branch)
 
 cb:
 	npm run cb $(branch)
