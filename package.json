@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "pull": "meta git pull",
+    "cb": "meta git checkout -b $1",
     "commit": "meta git commit -m $1",
     "push": "meta git push origin $1",
     "add": "meta git add .",

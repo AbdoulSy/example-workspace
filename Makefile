@@ -1,4 +1,5 @@
 message ?= 'Quick update'
+branch ?=master
 
 app:
 	$(MAKE) app -C ./projects/backend-examples
@@ -14,3 +15,6 @@ commit:
 	npm run add
 	npm run commit $(message)
 	npm run push
+
+cb:
+	npm run cb $(branch)
